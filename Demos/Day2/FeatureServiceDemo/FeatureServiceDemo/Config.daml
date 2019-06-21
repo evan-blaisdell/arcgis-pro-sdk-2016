@@ -1,0 +1,35 @@
+﻿<ArcGIS defaultAssembly="FeatureServiceDemo.dll" defaultNamespace="FeatureServiceDemo" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{8cfae453-d3e1-4685-a9f5-70b118b9a4ef}" version="1.0" desktopVersion="1.2.5023">
+    <Name>FeatureServiceDemo</Name>
+    <Description>FeatureServiceDemo description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK Team</Author>
+    <Company>Esri</Company>
+    <Date>2/29/2016 10:40:36 AM, 2016</Date>
+    <Subject>Geodatabase</Subject>
+  </AddInInfo>
+  <modules>
+    <insertModule id="FeatureServiceDemo_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="FeatureServiceDemo_Tab1" caption="New Tab">
+          <group refID="FeatureServiceDemo_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="FeatureServiceDemo_Group1" caption="SDK workshop" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="FeatureServiceDemo_ExploreService" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="FeatureServiceDemo_ExploreService" caption="ExploreService" className="ExploreService" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Programmatically connect to a feature service.<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

@@ -1,0 +1,11 @@
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\bin\Debug\DockPaneDragDrop.dll
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\bin\Debug\DockPaneDragDrop.pdb
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\Dockpane1.baml
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\Dockpane1.g.cs
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\DockPaneDragDrop_MarkupCompile.cache
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\DockPaneDragDrop.g.resources
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\DockPaneDragDrop.dll
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\DockPaneDragDrop.pdb
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\Pane1.baml
+c:\users\wolf2125\documents\visual studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\obj\Debug\Pane1.g.cs
+C:\Users\wolf2125\Documents\Visual Studio 2015\Projects\DockPaneDragDrop\DockPaneDragDrop\bin\Debug\DockPaneDragDrop.esriAddInX

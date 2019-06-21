@@ -1,0 +1,11 @@
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\bin\Debug\MapAndLayers.dll
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\bin\Debug\MapAndLayers.pdb
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\MapAndLayers.csprojResolveAssemblyReference.cache
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\CreateMapDialog.g.cs
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\MapAndLayers_MarkupCompile.cache
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\MapAndLayers_MarkupCompile.lref
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\CreateMapDialog.baml
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\MapAndLayers.g.resources
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\MapAndLayers.dll
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\obj\Debug\MapAndLayers.pdb
+F:\Conferences\Dev Summit 2016\Lecture 4\Demo Code\MapAndLayers\MapAndLayers\bin\Debug\MapAndLayers.esriAddInX

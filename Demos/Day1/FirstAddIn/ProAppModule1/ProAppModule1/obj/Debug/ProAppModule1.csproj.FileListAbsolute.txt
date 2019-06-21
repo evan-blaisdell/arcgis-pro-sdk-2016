@@ -1,0 +1,5 @@
+c:\ProSDKWorkshop\scratch\ProAppModule1\ProAppModule1\bin\Debug\ProAppModule1.dll
+c:\ProSDKWorkshop\scratch\ProAppModule1\ProAppModule1\bin\Debug\ProAppModule1.pdb
+c:\ProSDKWorkshop\scratch\ProAppModule1\ProAppModule1\obj\Debug\ProAppModule1.dll
+c:\ProSDKWorkshop\scratch\ProAppModule1\ProAppModule1\obj\Debug\ProAppModule1.pdb
+c:\ProSDKWorkshop\scratch\ProAppModule1\ProAppModule1\bin\Debug\ProAppModule1.esriAddInX

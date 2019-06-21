@@ -1,0 +1,59 @@
+﻿<ArcGIS defaultAssembly="MapAndLayers.dll" defaultNamespace="MapAndLayers" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{68499afd-69e2-4391-8368-d1c09491c1cc}" version="1.0" desktopVersion="1.2.5023">
+    <Name>MapAndLayers</Name>
+    <Description>MapAndLayers description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>chri4849</Author>
+    <Company>Acme</Company>
+    <Date>2/29/2016 11:04:28 AM, 2016</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="MapAndLayers_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="MapAndLayers_Tab1" caption="New Tab">
+          <group refID="MapAndLayers_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="MapAndLayers_Map" caption="Map" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="MapAndLayers_CreateMap" size="large" />
+          <button refID="MapAndLayers_AddLayer" size="large" />
+        </group>
+        <group id="MapAndLayers_Renderer" caption="Renderer" appearsOnAddInTab="true">
+          <button refID="MapAndLayers_SingleSymbol" size="large" />
+          <button refID="MapAndLayers_UniqueValues" size="large" />
+          <button refID="MapAndLayers_GraduatedSymbol" size="large" />
+          <button refID="MapAndLayers_HeatMap" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="MapAndLayers_CreateMap" caption="Create Map" className="CreateMap" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/MapNew32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="MapAndLayers_AddLayer" caption="Add Layer" className="AddLayer" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/AddContent32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="MapAndLayers_SingleSymbol" caption="Single Symbol" className="SingleSymbol" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/SingleSymbolPoint32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="MapAndLayers_GraduatedSymbol" caption="Graduated Symbol" className="GraduatedSymbol" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GraduatedSymbolsPoint32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="MapAndLayers_UniqueValues" caption="Unique Values" className="UniqueValues" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/UniqueValuesPoint32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="MapAndLayers_HeatMap" caption="Heat Map" className="HeatMap" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/HeatMapSymbolizer32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

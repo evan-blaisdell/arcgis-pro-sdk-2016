@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="ProDragDrop.dll" defaultNamespace="ProDragDrop" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{78a8ed38-4f16-41d6-8970-d19a87191dd9}" version="1.0" desktopVersion="1.2.5023">
+    <Name>ProDragDrop</Name>
+    <Description>ProDragDrop description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>wolf2125</Author>
+    <Company>Acme</Company>
+    <Date>3/3/2016 9:32:18 AM, 2016</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="ProDragDrop_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="ProDragDrop_Tab1" caption="New Tab">
+          <group refID="ProDragDrop_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="ProDragDrop_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+      </controls>
+    </insertModule>
+  </modules>
+  <dropHandlers>
+    <!--specific file extensions can be set like so: dataTypes=".XLS|.xls"-->
+    <insertHandler id="ProDragDrop_DropHandler1" className="DropHandler1" dataTypes=".txt" />
+  </dropHandlers>
+</ArcGIS>

@@ -1,0 +1,5 @@
+c:\users\wolf2125\documents\visual studio 2015\Projects\ProDragDrop\ProDragDrop\bin\Debug\ProDragDrop.dll
+c:\users\wolf2125\documents\visual studio 2015\Projects\ProDragDrop\ProDragDrop\bin\Debug\ProDragDrop.pdb
+c:\users\wolf2125\documents\visual studio 2015\Projects\ProDragDrop\ProDragDrop\obj\Debug\ProDragDrop.dll
+c:\users\wolf2125\documents\visual studio 2015\Projects\ProDragDrop\ProDragDrop\obj\Debug\ProDragDrop.pdb
+c:\users\wolf2125\documents\visual studio 2015\Projects\ProDragDrop\ProDragDrop\bin\Debug\ProDragDrop.esriAddInX

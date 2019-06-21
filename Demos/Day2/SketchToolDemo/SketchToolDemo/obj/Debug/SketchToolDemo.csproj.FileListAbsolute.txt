@@ -1,0 +1,16 @@
+C:\ProSDKWorkshop\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.dll
+C:\ProSDKWorkshop\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.pdb
+C:\ProSDKWorkshop\SketchToolDemo\SketchToolDemo\obj\Debug\SketchToolDemo.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\SketchToolDemo\SketchToolDemo\obj\Debug\SketchToolDemo.dll
+C:\ProSDKWorkshop\SketchToolDemo\SketchToolDemo\obj\Debug\SketchToolDemo.pdb
+C:\ProSDKWorkshop\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.esriAddInX
+C:\ProSDKWorkshop\_Demos\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.dll
+C:\ProSDKWorkshop\_Demos\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.pdb
+C:\ProSDKWorkshop\_Demos\SketchToolDemo\SketchToolDemo\obj\Debug\SketchToolDemo.dll
+C:\ProSDKWorkshop\_Demos\SketchToolDemo\SketchToolDemo\obj\Debug\SketchToolDemo.pdb
+C:\ProSDKWorkshop\_Demos\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.esriAddInX
+C:\ProSDKWorkshop\_MyDemos\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.dll
+C:\ProSDKWorkshop\_MyDemos\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.pdb
+C:\ProSDKWorkshop\_MyDemos\SketchToolDemo\SketchToolDemo\obj\Debug\SketchToolDemo.dll
+C:\ProSDKWorkshop\_MyDemos\SketchToolDemo\SketchToolDemo\obj\Debug\SketchToolDemo.pdb
+C:\ProSDKWorkshop\_MyDemos\SketchToolDemo\SketchToolDemo\bin\Debug\SketchToolDemo.esriAddInX

@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="ConstructionToolDemo.dll" defaultNamespace="ConstructionToolDemo" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/ArcGIS/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{e0a82c2b-3dd1-426b-af18-28d866fb1529}" version="1.0" desktopVersion="1.2.4954">
+    <Name>ConstructionToolDemo</Name>
+    <Description>ConstructionToolDemo description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK</Author>
+    <Company>Esri</Company>
+    <Date>3/1/2016 9:53:29 AM, 2016</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="ConstructionToolDemo_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="ConstructionToolDemo_Tab1" caption="New Tab">
+          <group refID="ConstructionToolDemo_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <!--<group id="ConstructionToolDemo_Group1" caption="Group 1" appearsOnAddInTab="true">
+          --><!-- host controls within groups --><!--
+        </group>-->
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <tool id="ConstructionToolDemo_ConstructionTool1" categoryRefID="esri_editing_construction_polygon" caption="ConstructionTool 1" className="ConstructionTool1" loadOnClick="true" smallImage="Images\GenericButtonRed16.png" largeImage="Images\GenericButtonRed32.png">
+          <!--note: use esri_editing_construction_polyline,  esri_editing_construction_polygon for categoryRefID as needed-->
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </tool>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

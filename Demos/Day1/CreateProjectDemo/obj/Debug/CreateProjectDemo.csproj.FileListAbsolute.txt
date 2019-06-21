@@ -1,0 +1,5 @@
+C:\ProSDkWorkshop\Demos\Day1\CreateProjectDemo\bin\Debug\CreateProjectDemo.dll
+C:\ProSDkWorkshop\Demos\Day1\CreateProjectDemo\bin\Debug\CreateProjectDemo.pdb
+C:\ProSDkWorkshop\Demos\Day1\CreateProjectDemo\obj\Debug\CreateProjectDemo.dll
+C:\ProSDkWorkshop\Demos\Day1\CreateProjectDemo\obj\Debug\CreateProjectDemo.pdb
+C:\ProSDkWorkshop\Demos\Day1\CreateProjectDemo\bin\Debug\CreateProjectDemo.esriAddInX

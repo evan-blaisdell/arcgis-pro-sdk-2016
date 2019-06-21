@@ -1,0 +1,66 @@
+﻿<ArcGIS defaultAssembly="CustomAnimation.dll" defaultNamespace="CustomAnimation" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{80b11fa1-b0de-4b6b-8289-b90d3f00d273}" version="1.0" desktopVersion="1.2.5023">
+    <Name>Animation</Name>
+    <Description>Animation</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>chri4849</Author>
+    <Company>Acme</Company>
+    <Date>2/26/2016 1:40:12 PM, 2016</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="RollerCoaster_Module" className="AnimationModule" autoLoad="false" caption="AnimationModule">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="RollerCoaster_Tab1" caption="New Tab">
+          <group refID="RollerCoaster_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="Animation_Timing" caption="Timing" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <customControl refID="CustomAnimation_TimingControl" size="large" />
+        </group>
+        <group id="Animation_Path" caption="Path" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="CustomAnimation_FollowPath" size="large"/>
+          <customControl refID="CustomAnimation_PathOptionsControl" size="large" />
+        </group>
+        <group id="Animation_RollerCoaster" caption="Roller Coaster" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="RollerCoaster_CreateKeyframes" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="RollerCoaster_CreateKeyframes" caption="Create Keyframes" className="CreateKeyframes" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <customControl id="CustomAnimation_TimingControl" caption="TimingControl " className="TimingControlViewModel" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png" condition="esri_mapping_mapPane" >
+          <content className="TimingControlView" />
+          <tooltip heading="Timing Options">
+            Configure where in the track the keyframes are added to the animation.
+            <disabledText>Active view must be a 3D scene.</disabledText>
+          </tooltip>
+        </customControl>
+        <button id="CustomAnimation_FollowPath" caption="Follow Path" className="FollowPath" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Follow Path">
+            Adds new keyframes to follow the path of the first selected 3D line in the scene.
+            <disabledText>Active view must be a 3D scene.</disabledText>
+          </tooltip>
+        </button>
+        <customControl id="CustomAnimation_PathOptionsControl" caption="PathOptionsControl" className="PathOptionsControlViewModel" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png" condition="esri_mapping_mapPane" >
+          <content className="PathOptionsControlView" />
+          <tooltip heading="Path Options">
+            Configure how the keyframes are constructed along the path which includes the height above the path, how often to create keyframes, and the pitch of the camera along the line.
+            <disabledText>Active view must be a 3D scene.</disabledText>
+          </tooltip>
+        </customControl>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

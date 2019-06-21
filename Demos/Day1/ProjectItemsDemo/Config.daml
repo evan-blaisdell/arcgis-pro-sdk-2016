@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcGIS defaultAssembly="ProjectItemsDemo.dll" defaultNamespace="ProjectItemsDemo" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/ArcGIS/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{7a56dfcf-36d4-41bb-aecc-4bda325d1961}" version="1.0" desktopVersion="1.1.3308">
+    <Name>ProjectItemsDemo</Name>
+    <Description>ProjectItemsDemo description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>charlesm</Author>
+    <Company>Acme</Company>
+    <Date>1/18/2016 1:19:34 PM, 2016</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="ProjectItemsDemo_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="ProjectItemsDemo_Tab1" caption="New Tab">
+          <group refID="ProjectItemsDemo_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="ProjectItemsDemo_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="ProjectItemsDemo_ProjectItemsButton" size="large" />
+          <button refID="ProjectItemsDemo_ProjectItemsButton2" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="ProjectItemsDemo_ProjectItemsButton" caption="ProjectItemsButton " className="ProjectItemsButton" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="ProjectItemsDemo_ProjectItemsButton2" caption="ProjectItemsButton 2" className="ProjectItemsButton2" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

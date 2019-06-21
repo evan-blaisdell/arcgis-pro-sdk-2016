@@ -1,0 +1,8 @@
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\bin\Debug\EsriHttpClientDemo.dll
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\bin\Debug\EsriHttpClientDemo.pdb
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\bin\Debug\Newtonsoft.Json.dll
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\bin\Debug\Newtonsoft.Json.xml
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\obj\Debug\EsriHttpClientDemo.csprojResolveAssemblyReference.cache
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\obj\Debug\EsriHttpClientDemo.dll
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\obj\Debug\EsriHttpClientDemo.pdb
+C:\ProSDkWorkshop\Demos\Day1\EsriHttpClientDemo\bin\Debug\EsriHttpClientDemo.esriAddInX

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcGIS defaultAssembly="EsriHttpClientDemo.dll" defaultNamespace="EsriHttpClientDemo" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/ArcGIS/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{de898d0d-cc32-4b71-9306-9db506bb5c74}" version="1.0" desktopVersion="1.1.3308">
+    <Name>EsriHttpClientDemo</Name>
+    <Description>EsriHttpClientDemo description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>charlesm</Author>
+    <Company>Acme</Company>
+    <Date>1/18/2016 2:28:35 PM, 2016</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="EsriHttpClientDemo_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="EsriHttpClientDemo_Tab1" caption="New Tab">
+          <group refID="EsriHttpClientDemo_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="EsriHttpClientDemo_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="EsriHttpClientDemo_EsriHttpClientButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="EsriHttpClientDemo_EsriHttpClientButton" caption="EsriHttpClientButton " className="EsriHttpClientButton" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

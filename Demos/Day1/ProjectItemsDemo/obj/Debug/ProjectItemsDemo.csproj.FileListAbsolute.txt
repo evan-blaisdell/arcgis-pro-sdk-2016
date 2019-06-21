@@ -1,0 +1,6 @@
+C:\ProSDkWorkshop\Demos\Day1\ProjectItemsDemo\bin\Debug\ProjectItemsDemo.dll
+C:\ProSDkWorkshop\Demos\Day1\ProjectItemsDemo\bin\Debug\ProjectItemsDemo.pdb
+C:\ProSDkWorkshop\Demos\Day1\ProjectItemsDemo\obj\Debug\ProjectItemsDemo.csprojResolveAssemblyReference.cache
+C:\ProSDkWorkshop\Demos\Day1\ProjectItemsDemo\obj\Debug\ProjectItemsDemo.dll
+C:\ProSDkWorkshop\Demos\Day1\ProjectItemsDemo\obj\Debug\ProjectItemsDemo.pdb
+C:\ProSDkWorkshop\Demos\Day1\ProjectItemsDemo\bin\Debug\ProjectItemsDemo.esriAddInX

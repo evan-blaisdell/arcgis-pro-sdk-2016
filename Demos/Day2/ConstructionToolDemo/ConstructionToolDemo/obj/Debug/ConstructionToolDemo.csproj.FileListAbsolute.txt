@@ -1,0 +1,10 @@
+C:\ProSDKWorkshop\_Demos\ConstructionToolDemo\ConstructionToolDemo\bin\Debug\ConstructionToolDemo.dll
+C:\ProSDKWorkshop\_Demos\ConstructionToolDemo\ConstructionToolDemo\bin\Debug\ConstructionToolDemo.pdb
+C:\ProSDKWorkshop\_Demos\ConstructionToolDemo\ConstructionToolDemo\obj\Debug\ConstructionToolDemo.dll
+C:\ProSDKWorkshop\_Demos\ConstructionToolDemo\ConstructionToolDemo\obj\Debug\ConstructionToolDemo.pdb
+C:\ProSDKWorkshop\_Demos\ConstructionToolDemo\ConstructionToolDemo\bin\Debug\ConstructionToolDemo.esriAddInX
+C:\ProSDKWorkshop\_MyDemos\ConstructionToolDemo\ConstructionToolDemo\bin\Debug\ConstructionToolDemo.dll
+C:\ProSDKWorkshop\_MyDemos\ConstructionToolDemo\ConstructionToolDemo\bin\Debug\ConstructionToolDemo.pdb
+C:\ProSDKWorkshop\_MyDemos\ConstructionToolDemo\ConstructionToolDemo\obj\Debug\ConstructionToolDemo.dll
+C:\ProSDKWorkshop\_MyDemos\ConstructionToolDemo\ConstructionToolDemo\obj\Debug\ConstructionToolDemo.pdb
+C:\ProSDKWorkshop\_MyDemos\ConstructionToolDemo\ConstructionToolDemo\bin\Debug\ConstructionToolDemo.esriAddInX

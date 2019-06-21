@@ -1,0 +1,25 @@
+﻿<Window x:Class="MapAndLayers.CreateMapDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MapAndLayers"
+        mc:Ignorable="d"
+        ContentRendered="Window_ContentRendered"
+        Title="Create Map" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterOwner">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DockPanel LastChildFill="True" Margin="5,5,5,0">
+            <TextBlock Text="Name:  " VerticalAlignment="Center" />
+            <TextBox Name="mapName" Grid.Row="0">Map</TextBox>
+        </DockPanel>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button Name="btnDialogOk" Click="btnDialogOk_Click" Style="{StaticResource Esri_SimpleButton}">OK</Button>
+            <Button IsCancel="True" Style="{StaticResource Esri_SimpleButton}">Cancel</Button>
+        </StackPanel>
+    </Grid>
+</Window>
