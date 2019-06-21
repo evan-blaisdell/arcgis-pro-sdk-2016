@@ -1,0 +1,10 @@
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\bin\Debug\ProjectItems.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\bin\Debug\ProjectItems.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\obj\Debug\ProjectItems.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\obj\Debug\ProjectItems.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\obj\Debug\ProjectItems.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\obj\Debug\FolderSearchDockpane.baml
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\obj\Debug\FolderSearchDockpane.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\obj\Debug\ProjectItems_MarkupCompile.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\obj\Debug\ProjectItems.g.resources
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 5\Start\ProjectItems\bin\Debug\ProjectItems.esriAddInX

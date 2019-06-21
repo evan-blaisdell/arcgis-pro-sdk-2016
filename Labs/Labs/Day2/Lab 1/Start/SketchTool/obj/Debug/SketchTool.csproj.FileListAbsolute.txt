@@ -1,0 +1,11 @@
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\bin\Debug\SketchTool.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\bin\Debug\SketchTool.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\SketchTool.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\EmbeddedControl.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\SketchTool_MarkupCompile.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\SketchTool_MarkupCompile.lref
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\EmbeddedControl.baml
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\SketchTool.g.resources
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\SketchTool.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\obj\Debug\SketchTool.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 1\Start\SketchTool\bin\Debug\SketchTool.esriAddInX

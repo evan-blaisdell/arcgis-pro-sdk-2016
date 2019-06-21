@@ -1,0 +1,54 @@
+﻿<!--
+//   Copyright 2014 Esri
+//   Licensed under the Apache License, Version 2.0 (the "License");
+//   you may not use this file except in compliance with the License.
+//   You may obtain a copy of the License at
+
+//       http://www.apache.org/licenses/LICENSE-2.0
+
+//   Unless required by applicable law or agreed to in writing, software
+//   distributed under the License is distributed on an "AS IS" BASIS,
+//   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//   See the License for the specific language governing permissions and
+//   limitations under the License. 
+-->
+<ArcGIS defaultAssembly="CustomSymbolPicker.dll"
+        defaultNamespace="CustomSymbolPicker"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <AddInInfo id="{5331d375-9005-4fb8-8348-c769bb2c28b8}" version="1.0" desktopVersion="1.1.3299">
+    <Name>Custom Symbol Picker</Name>   
+    <Description>Adds a custom symbol picker dock pane.</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK Team, arcgisprosdk@esri.com</Author>
+    <Company>Esri, http://www.esri.com</Company>
+    <Date>7/8/2015 10:11:10 AM, 2015</Date>
+    <Subject>Map Authoring</Subject>
+
+  </AddInInfo>
+
+  <modules>
+    <insertModule id="CustomSymbolPicker_Module" className="Module1" autoLoad="false" caption="Module1">              
+      <groups>
+        <group id="CustomSymbolPicker_Group1" caption="Symbol Picker" appearsOnAddInTab="true">
+          <button refID="CustomSymbolPicker_GalleryDockpane_ShowButton" size="large"/>
+        </group>
+      </groups>
+
+      <controls>
+        <button id="CustomSymbolPicker_GalleryDockpane_ShowButton" caption="Custom Symbol Picker" className="GalleryDockpane_ShowButton" loadOnClick="true" smallImage="Images\GenericButtonPurple16.png" largeImage="Images\GenericButtonPurple32.png">
+          <tooltip heading="Show Dockpane">
+            Show Dockpane<disabledText />
+          </tooltip>
+        </button>
+      </controls>
+      <dockPanes>
+        <dockPane id="CustomSymbolPicker_SymbolPickerDockpane" caption="Custom Symbol Picker" className="SymbolPickerViewModel" dock="group" dockWith="esri_core_projectDockPane">
+          <content className="SymbolPickerView" />
+        </dockPane>
+      </dockPanes>     
+    </insertModule>
+  </modules>
+</ArcGIS>

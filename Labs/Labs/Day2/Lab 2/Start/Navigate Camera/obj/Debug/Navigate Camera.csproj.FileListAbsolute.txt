@@ -1,0 +1,14 @@
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\bin\Debug\NavigateCamera.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\bin\Debug\NavigateCamera.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\CameraDockPane\CameraPane.baml
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\CameraControl.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\CameraDockPane\CameraPane.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\NavigateCamera_MarkupCompile.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\NavigateCamera_MarkupCompile.lref
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\CameraControl.baml
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\NavigateCamera.g.resources
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\NavigateCamera.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\NavigateCamera.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\obj\Debug\Navigate Camera.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 2\Start\Navigate Camera\bin\Debug\NavigateCamera.esriAddInX

@@ -1,0 +1,54 @@
+﻿<!--//Copyright 2015-2016 Esri
+
+//   Licensed under the Apache License, Version 2.0 (the "License");
+//   you may not use this file except in compliance with the License.
+//   You may obtain a copy of the License at
+
+//       http://www.apache.org/licenses/LICENSE-2.0
+
+//   Unless required by applicable law or agreed to in writing, software
+//   distributed under the License is distributed on an "AS IS" BASIS,
+//   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//   See the License for the specific language governing permissions and
+//   limitations under the License. -->
+
+<ArcGIS defaultAssembly="GeometryEditingSolution.dll" defaultNamespace="GeometryEditingSolution" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{0D9C15E2-D68A-4B84-AB1B-323A73371D88}" version="1.0" desktopVersion="1.2.5023">
+    <Name>GeometryLabSolution</Name>
+    <Description>Solution for the Geometry and Editing API Lab.</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK Team</Author>
+    <Company>Esri</Company>
+    <Date>2/23/2016 3:57:40 PM, 2016</Date>
+    <Subject>Geometry</Subject>
+  </AddInInfo>
+  <modules>
+    <insertModule id="GeometryEditingSolution_Module" className="GeometryEditingModule" autoLoad="false" caption="Geometry Module">
+      <groups>
+        <group id="GeometryEditingSolution_Group" caption="Geometry/Editing (Solution)" appearsOnAddInTab="true"> 
+          <button refID="GeometryEditingSolution_createPoints" size="large" />
+          <button refID="GeometryEditingSolution_createPolylines" size="large" />
+          <button refID="GeometryEditingSolution_CreateGreenforTrees" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- Geometry tools -->
+        <button id="GeometryEditingSolution_createPoints" caption="Create Points" className="createPoints" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="ArcGIS Pro SDK - Workshop">Create random points in the current map view.<disabledText /></tooltip>
+        </button>
+        <button id="GeometryEditingSolution_createPolylines" caption="Create Polylines" className="createPolylines" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="ArcGIS Pro SDK - Workshop">Create lines from the generated points.<disabledText /></tooltip>
+        </button>
+        <button id="GeometryEditingSolution_CreateGreenforTrees" caption="Create Green for Trees" className="CreateGreenforTrees" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="ArcGIS Pro SDK - Workshop">
+            Create a polygon with cutouts for trees.<disabledText /></tooltip>
+        </button>
+        <tool id="GeometryEditingSolution_CreateGreenSketchTool" caption="Create Green" className="CreateGreenSketchTool" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="ArcGIS Pro SDK - Workshop">
+            Create a polygon with cutouts for trees.<disabledText />
+          </tooltip>
+        </tool>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

@@ -1,0 +1,6 @@
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 2\Start\ConditionsAndState\bin\Debug\ConditionsAndState.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 2\Start\ConditionsAndState\bin\Debug\ConditionsAndState.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 2\Start\ConditionsAndState\obj\Debug\ConditionsAndState.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 2\Start\ConditionsAndState\obj\Debug\ConditionsAndState.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 2\Start\ConditionsAndState\obj\Debug\ConditionsAndState.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 2\Start\ConditionsAndState\bin\Debug\ConditionsAndState.esriAddInX

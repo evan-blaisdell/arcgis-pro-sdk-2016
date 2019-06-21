@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArcGIS defaultAssembly="EditingExercisesSolution.dll"
+        defaultNamespace="EditingExercisesSolution"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/arcgis/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <AddInInfo id="{8ca902e1-52b4-422d-8796-c18884264731}" version="1.0" desktopVersion="1.2.5023">
+    <Name>EditingExercisesSolution</Name>
+    <Description>Exercises for the Editing API</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK Team</Author>
+    <Company>Esri</Company>
+    <Date>2/23/2016 3:57:40 PM, 2016</Date>
+    <Subject>Editing</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+
+  <modules>
+    <insertModule id="EditingExercisesSolution_Module" className="Module1" autoLoad="false" caption="Module1">     
+      <controls>
+        <!-- Editing tools -->
+        <tool id="EditingExercisesSolution_SimpleSketchTool" categoryRefID="esri_editing_construction_point" caption="SimpleSketchTool" className="SimpleSketchTool" loadOnClick="true" smallImage="Images\GenericButtonRed16.png" largeImage="Images\GenericButtonRed32.png">
+          <tooltip heading="ArcGIS Pro SDK - Workshop">
+            Default construction tool.<disabledText />
+          </tooltip>
+        </tool>
+        <tool id="EditingExercisesSolution_CutWithoutSelection" categoryRefID="esri_editing_CommandList" caption="Cut Without Selection" className="CutWithoutSelection" loadOnClick="true" smallImage="Images\GenericButtonRed16.png" largeImage="Images\GenericButtonRed32.png">
+          <tooltip heading="ArcGIS Pro SDK - Workshop">
+            Sketch a line to cut underlying polygons without a feature selection.<disabledText />
+          </tooltip>
+          <content L_group="Workshop (Solution)" gallery2d="true" />
+        </tool>
+        <tool id="EditingExercisesSolution_UpdateAttributes" categoryRefID="esri_editing_CommandList" caption="Update Attributes" className="UpdateAttributes" loadOnClick="true" smallImage="Images\GenericButtonRed16.png" largeImage="Images\GenericButtonRed32.png" condition="esri_mapping_singleLayerSelectedCondition">
+          <tooltip heading="ArcGIS Pro SDK - Workshop">
+            Sample showing attribute editing.<disabledText />
+          </tooltip>
+          <content L_group="Workshop (Solution)" gallery2d="true" />
+        </tool>
+      </controls>       
+    </insertModule>
+  </modules>
+</ArcGIS>

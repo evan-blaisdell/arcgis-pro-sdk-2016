@@ -1,0 +1,6 @@
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab1\working_with_DAML\working_with_DAML\bin\Debug\working_with_DAML.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab1\working_with_DAML\working_with_DAML\bin\Debug\working_with_DAML.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab1\working_with_DAML\working_with_DAML\obj\Debug\working_with_DAML.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab1\working_with_DAML\working_with_DAML\obj\Debug\working_with_DAML.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab1\working_with_DAML\working_with_DAML\obj\Debug\working_with_DAML.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab1\working_with_DAML\working_with_DAML\bin\Debug\working_with_DAML.esriAddInX

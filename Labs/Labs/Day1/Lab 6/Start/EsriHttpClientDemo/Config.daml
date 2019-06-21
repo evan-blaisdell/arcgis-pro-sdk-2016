@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="EsriHttpClientDemo.dll" defaultNamespace="EsriHttpClientDemo" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{70c6bd8e-5a81-4132-af74-9a2afaf13a36}" version="1.0" desktopVersion="1.2.5023">
+    <Name>EsriHttpClientDemo</Name>
+    <Description>EsriHttpClientDemo description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>Esri</Author>
+    <Company>Acme</Company>
+    <Date>1/9/2016 2:02:29 PM, 2016</Date>
+    <Subject>Sharing</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="EsriHttpClientDemo_Module_Start" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="EsriHttpClient_Tab1" caption="New Tab">
+          <group refID="EsriHttpClient_Group1_Start"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="EsriHttpClientDemo_Group1_Start" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="EsriHttpClientDemo_AddLayer_Start" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="EsriHttpClientDemo_AddLayer_Start" caption="Add Layer " className="AddLayer" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

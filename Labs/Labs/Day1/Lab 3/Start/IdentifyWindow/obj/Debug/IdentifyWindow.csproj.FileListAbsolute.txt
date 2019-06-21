@@ -1,0 +1,10 @@
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\bin\Debug\IdentifyWindow.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\bin\Debug\IdentifyWindow.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\obj\Debug\IdentifyWindow.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\obj\Debug\AttributeDockpane.baml
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\obj\Debug\AttributeDockpane.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\obj\Debug\IdentifyWindow_MarkupCompile.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\obj\Debug\IdentifyWindow.g.resources
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\obj\Debug\IdentifyWindow.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\obj\Debug\IdentifyWindow.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 3\Start\IdentifyWindow\bin\Debug\IdentifyWindow.esriAddInX

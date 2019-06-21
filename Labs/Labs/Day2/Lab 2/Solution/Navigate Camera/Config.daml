@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Copyright 2015 Esri
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<ArcGIS defaultAssembly="NavigateCamera.dll"
+        defaultNamespace="NavigateCamera"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <AddInInfo id="{9def0b9b-e140-4ab3-9e75-69639342f28a}" version="1.1" desktopVersion="1.1.3308">
+    <Name>Navigating camera with ArcGIS Pro</Name>
+    <Description>Navigating camera with ArcGIS Pro</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK Team, arcgisprosdk@esri.com</Author>
+    <Company>Esri, http://www.esri.com</Company>
+    <Date>2/18/2015 3:50:13 PM, 2015</Date>
+    <Subject>Map Exploration</Subject>
+  </AddInInfo>
+
+  <modules>
+    <insertModule id="NavigateCamera_Module" className="Module1" autoLoad="true" caption="Camera">
+      <tabs>
+        <tab id="NavigateCamera_CameraTab" caption="CAMERA" condition="esri_mapping_mapPane">
+          <group refID="NavigateCamera_CameraGroup" />
+        </tab>
+      </tabs>
+      <groups>
+        <group id="NavigateCamera_CameraGroup" caption="CAMERA">
+          <button refID="NavigateCamera_CameraPane_ShowButton" size="large" />
+          <customControl refID="NavigateCamera_CameraControl"/>
+        </group>
+      </groups>
+      <controls>
+        <button id="NavigateCamera_CameraPane_ShowButton" caption="Camera Properties " className="CameraPane_ShowButton" loadOnClick="true" smallImage="Images\GenericButtonPurple16.png" largeImage="Images\GenericButtonPurple32.png" condition="esri_mapping_mapPane">
+          <tooltip heading="Camera Properties"/>
+        </button>
+        <customControl id="NavigateCamera_CameraControl" caption="Camera Control" className="CameraControlViewModel" loadOnClick="false" condition="esri_mapping_mapPane" >
+          <content className="CameraControl" />
+        </customControl>
+      </controls>
+      <dockPanes>
+        <dockPane id="NavigateCamera_CameraPane" caption="Camera Properties" className="CameraPaneViewModel" keytip="DockPane" initiallyVisible="true" dock="group" dockWith="esri_core_contentsDockPane">
+          <content className="CameraPane" />
+        </dockPane>
+      </dockPanes>
+    </insertModule>
+  </modules>
+</ArcGIS>

@@ -1,0 +1,10 @@
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\bin\Debug\GeodatabaseExercises.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\bin\Debug\GeodatabaseExercises.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\obj\Debug\Geodatabase.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\obj\Debug\WatermainPane.baml
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\obj\Debug\WatermainPane.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\obj\Debug\GeodatabaseExercises_MarkupCompile.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\obj\Debug\GeodatabaseExercises.g.resources
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\obj\Debug\GeodatabaseExercises.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\obj\Debug\GeodatabaseExercises.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 3\Start\Geodatabase\bin\Debug\GeodatabaseExercises.esriAddInX

@@ -1,0 +1,7 @@
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 4\Start\CoarseFineGrained\bin\Debug\CoarseFineGrained.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 4\Start\CoarseFineGrained\bin\Debug\CoarseFineGrained.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 4\Start\CoarseFineGrained\bin\Debug\Newtonsoft.Json.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 4\Start\CoarseFineGrained\obj\Debug\CoarseFineGrained.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 4\Start\CoarseFineGrained\obj\Debug\CoarseFineGrained.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 4\Start\CoarseFineGrained\obj\Debug\CoarseFineGrained.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 4\Start\CoarseFineGrained\bin\Debug\CoarseFineGrained.esriAddInX

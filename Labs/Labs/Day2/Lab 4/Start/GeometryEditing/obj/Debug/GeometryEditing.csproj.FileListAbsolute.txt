@@ -1,0 +1,6 @@
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 4\Start\GeometryEditing\bin\Debug\GeometryEditingExercises.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 4\Start\GeometryEditing\bin\Debug\GeometryEditingExercises.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 4\Start\GeometryEditing\obj\Debug\GeometryEditing.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 4\Start\GeometryEditing\obj\Debug\GeometryEditingExercises.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 4\Start\GeometryEditing\obj\Debug\GeometryEditingExercises.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 4\Start\GeometryEditing\bin\Debug\GeometryEditingExercises.esriAddInX

@@ -1,0 +1,41 @@
+﻿<ArcGIS defaultAssembly="CoarseFineGrained.dll" defaultNamespace="CoarseFineGrained" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{60a98bb9-c6f8-4348-9754-1ed3ccc4f9a0}" version="1.0" desktopVersion="1.1.3308">
+    <Name>CoarseFineGrained</Name>
+    <Description>CoarseFineGrained description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>charlesm</Author>
+    <Company>Acme</Company>
+    <Date>7/23/2015 9:34:25 AM, 2015</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="CoarseFineGrained_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="CoarseFineGrained_Tab1" caption="New Tab">
+          <group refID="CoarseFineGrained_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="CoarseFineGrained_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="CoarseFineGrained_CoarseGrained" size="large" />
+          <button refID="CoarseFineGrained_FineGrained" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="CoarseFineGrained_CoarseGrained" caption="Coarse Grained " className="CoarseGrained" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="CoarseFineGrained_FineGrained" caption="Fine Grained " className="FineGrained" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

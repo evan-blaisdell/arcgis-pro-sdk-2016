@@ -1,0 +1,12 @@
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\bin\Debug\CustomSymbolPicker.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\bin\Debug\CustomSymbolPicker.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\CustomSymbolPicker.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\SymbolPicker.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\CustomSymbolPicker_MarkupCompile.cache
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\CustomSymbolPicker_MarkupCompile.lref
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\SymbolPicker.baml
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\CustomSymbolPicker.g.resources
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\CustomSymbolPicker.dll
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\obj\Debug\CustomSymbolPicker.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day1\Lab 7\Start\CustomSymbolPicker\bin\Debug\CustomSymbolPicker.esriAddInX

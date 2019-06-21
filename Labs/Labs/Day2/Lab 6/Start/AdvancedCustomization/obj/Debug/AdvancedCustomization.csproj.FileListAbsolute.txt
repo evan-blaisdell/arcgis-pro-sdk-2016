@@ -1,0 +1,7 @@
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 6\Start\AdvancedCustomization\bin\Debug\AdvancedCustomization.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 6\Start\AdvancedCustomization\bin\Debug\AdvancedCustomization.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 6\Start\AdvancedCustomization\obj\Debug\AdvancedCustomization.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 6\Start\AdvancedCustomization\obj\Debug\AdvancedCustomization.g.resources
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 6\Start\AdvancedCustomization\obj\Debug\AdvancedCustomization.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 6\Start\AdvancedCustomization\obj\Debug\AdvancedCustomization.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 6\Start\AdvancedCustomization\bin\Debug\AdvancedCustomization.esriAddInX

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArcGIS defaultAssembly="AdvancedCustomization.dll" defaultNamespace="AdvancedCustomization" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <dependencies>
+    <dependency name="ADMapping.daml" />
+  </dependencies>
+
+  <modules>
+    <insertModule id="AdvancedCustomize_Daml_Filter">
+
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <tab id="Advanced_DAML_Tab1" caption="Favorites" tabGroupID="Advanced_Daml_Filter_Tab">
+          <group refID="Advanced_DAML_Group1" />
+          <group refID="Advanced_DAML_Group2" />
+        </tab>
+
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="Advanced_DAML_Group1" caption="Filter group 1" appearsOnAddInTab="false">
+          <!-- host controls within groups -->
+          <!--Core Pro Commands-->
+          <toolPalette refID="esri_mapping_newMapPalette" />
+          <button refID="esri_core_saveProjectButton" />
+          <button refID="esri_core_saveProjectAsButton" />
+          <gallery refID="esri_mapping_bookmarksNavigateGallery" />
+          <button refID="esri_mapping_mapContextMenu_ExportMap" />
+        </group>
+        <group id="Advanced_DAML_Group2" caption="Filter group 2" appearsOnAddInTab="false">
+          <!-- host controls within groups -->
+          <!--Core Pro Commands-->
+          <toolPalette refID="esri_mapping_selectToolPalette" />
+          <button refID="esri_mapping_clearSelectionButton" />
+          <button refID="esri_geoprocessing_selectByAttributeButton" />
+          <button refID="esri_geoprocessing_selectByLocationButton" />
+        </group>
+      </groups>
+      <controls>
+      </controls>
+    </insertModule>
+
+  </modules>
+</ArcGIS>

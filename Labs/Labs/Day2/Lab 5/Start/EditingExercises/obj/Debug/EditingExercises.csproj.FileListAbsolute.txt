@@ -1,0 +1,6 @@
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 5\Start\EditingExercises\bin\Debug\EditingExercises.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 5\Start\EditingExercises\bin\Debug\EditingExercises.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 5\Start\EditingExercises\obj\Debug\EditingExercises.csprojResolveAssemblyReference.cache
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 5\Start\EditingExercises\obj\Debug\EditingExercises.dll
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 5\Start\EditingExercises\obj\Debug\EditingExercises.pdb
+C:\ProSDKWorkshop\Labs\Labs\Day2\Lab 5\Start\EditingExercises\bin\Debug\EditingExercises.esriAddInX

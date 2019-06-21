@@ -1,0 +1,41 @@
+﻿<ArcGIS defaultAssembly="ProjectItems_Solution.dll" defaultNamespace="ProjectItems_Solution" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{31c04b4c-87f0-4c16-acaf-8f65eb9773e6}" version="1.0" desktopVersion="1.2.5023">
+    <Name>ProjectItems_Solution</Name>
+    <Description>Lab illustrating how to work with project items.  In this lab you will learn how to access existing project items, add new project items. You will
+      also be introduced to the Dockpane control and MVVM practices within ArcGIS Pro.</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>ArcGIS Pro SDK Team</Author>
+    <Company>Esri</Company>
+    <Date>7/8/2015 10:54:17 AM, 2015</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="ProjectItems_Solution_Module" className="Module1" autoLoad="false" caption="Module1">
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="ProjectItems_Solution_Group1" caption="Project Items" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="ProjectItems_Solution_AddFolderConnection" size="large" />
+          <button refID="ProjectItems_Solution_FolderSearchDockPane_ShowButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="ProjectItems_Solution_AddFolderConnection" caption="Add FolderConnection" className="AddFolderConnection" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Add Folder Connection">Add Folder Connection<disabledText /></tooltip>
+        </button>
+        <button id="ProjectItems_Solution_FolderSearchDockPane_ShowButton" caption="Show FolderSearchDockPane" className="FolderSearchDockPane_ShowButton" loadOnClick="true" smallImage="Images\GenericButtonPurple16.png" largeImage="Images\GenericButtonPurple32.png">
+          <tooltip heading="Show Dockpane">Show Dockpane<disabledText /></tooltip>
+        </button>
+      </controls>
+      <dockPanes>
+        <dockPane id="ProjectItems_Solution_FolderSearchDockPane" caption="Import Mxds" className="FolderSearchDockPaneViewModel" dock="group" dockWith="esri_core_contentsDockPane">
+          <content className="FolderSearchDockPaneView" />
+        </dockPane>
+      </dockPanes>
+    </insertModule>
+  </modules>
+</ArcGIS>

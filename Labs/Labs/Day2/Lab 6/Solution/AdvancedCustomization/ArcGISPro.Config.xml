@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArcGIS.Custom
+  xmlns="http://schemas.esri.com/ArcGIS/Custom"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  appName="Advanced Customization Example">
+
+  <!-- Add a SplashScreen element. it has an assembly and image attribute -->
+  <SplashScreen assembly="C:\ProSDKWorkshop\arcgis-pro-sdk-workshop-2day-master\Labs\Day2\Lab 6\Solution\AdvancedCustomization\bin\Debug\AdvancedCustomization.dll" image="Images/CustomSplash.png"/>
+
+  <!-- Add a DAML element. It has a path attribute to the daml file -->
+  <DAML path="C:\ProSDKWorkshop\arcgis-pro-sdk-workshop-2day-master\Labs\Day2\Lab 6\Solution\AdvancedCustomization\CustomDamlFilter.daml"/>
+ 
+</ArcGIS.Custom>
